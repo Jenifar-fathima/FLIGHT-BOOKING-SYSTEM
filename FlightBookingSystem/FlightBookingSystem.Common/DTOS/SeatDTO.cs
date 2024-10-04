@@ -2,9 +2,9 @@
 {
     public class SeatDTO
     {
-        public string SeatType { get; set; }
+        public SeatType SeatType { get; set; }
         public string SeatNumber { get; set; }
-        public bool IsAvailable { get; set; }
+        public SeatAvailability SeatAvailability { get; set; }
         public int Fare { get; set; }
     }
 }
